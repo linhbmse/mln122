@@ -5,15 +5,17 @@ export const Experience = () => {
   return (
     <>
       {/* Book without animation - stays in place and larger */}
-      <group rotation-x={-Math.PI / 12} position-y={0} scale={1.5}>
+      <group rotation-x={0} position-y={0} scale={1.5}>
         <Book />
       </group>
       
       <Environment preset="studio"></Environment>
       
+      <ambientLight intensity={1.2} />
+      
       <directionalLight
         position={[3, 8, 3]}
-        intensity={3}
+        intensity={0.3}
         castShadow
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
