@@ -1,23 +1,10 @@
 import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
-const pictures = [
-  "muc-luc",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "10",
-  "11",
-  "12",
-  "13",
-  "15",
-];
-
+// Auto-generate pages from image files: 1.png to 20.png
 export const pageAtom = atom(0);
+
+// Create page pairs: [1,2], [3,4], [5,6], etc.
 export const pages = [
   { front: "1", back: "2" },
   { front: "3", back: "4" },
@@ -25,7 +12,10 @@ export const pages = [
   { front: "7", back: "8" },
   { front: "9", back: "10" },
   { front: "11", back: "12" },
-  { front: "13", back: "15" },
+  { front: "13", back: "14" },
+  { front: "15", back: "16" },
+  { front: "17", back: "18" },
+  { front: "19", back: "20" },
 ];
 
 export const UI = () => {
