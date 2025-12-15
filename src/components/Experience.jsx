@@ -11,11 +11,11 @@ export const Experience = () => {
       
       <Environment preset="studio"></Environment>
       
-      <ambientLight intensity={1.2} />
+      <ambientLight intensity={0.15} />
       
       <directionalLight
         position={[3, 8, 3]}
-        intensity={0.3}
+        intensity={0.01}
         castShadow
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
