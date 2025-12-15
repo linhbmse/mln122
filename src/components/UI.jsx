@@ -6,18 +6,19 @@ export const pageAtom = atom(0);
 
 // Create page pairs: [1,2], [3,4], [5,6], etc.
 export const pages = [
-  { front: "1", back: "muc-luc" },
-  {front: "member", back: "2"},
-  { front: "3", back: "4" },
-  { front: "5", back: "6" },
-  { front: "7", back: "8" },
-  { front: "9", back: "10" },
-  { front: "11", back: "12" },
-  { front: "13", back: "14" },
-  { front: "15", back: "16" },
-  { front: "17", back: "18" },
-  { front: "19", back: "ai" },
-  { front: "20", back: "thanks" },
+  {front: "1", back: "muc-luc"},
+  {front: "2", back: "4"},
+  {front: "5", back: "6"},
+  {front: "7", back: "8"},
+  {front: "9", back: "10"},
+  {front: "11", back: "12"},
+  {front: "13", back: "14"},
+  {front: "15", back: "16"},
+  {front: "17", back: "18"},
+  {front: "19", back: "20"},
+  {front: "21", back: "ai"},
+  {front: "22", back: "thank"},
+
 ];
 
 export const UI = () => {
