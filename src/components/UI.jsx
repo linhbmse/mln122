@@ -6,7 +6,8 @@ export const pageAtom = atom(0);
 
 // Create page pairs: [1,2], [3,4], [5,6], etc.
 export const pages = [
-  { front: "1", back: "2" },
+  { front: "1", back: "muc-luc" },
+  {front: "member", back: "2"},
   { front: "3", back: "4" },
   { front: "5", back: "6" },
   { front: "7", back: "8" },
@@ -15,11 +16,13 @@ export const pages = [
   { front: "13", back: "14" },
   { front: "15", back: "16" },
   { front: "17", back: "18" },
-  { front: "19", back: "20" },
+  { front: "19", back: "ai" },
+  { front: "20", back: "thanks" },
 ];
 
 export const UI = () => {
   const [page, setPage] = useAtom(pageAtom);
+
 
   useEffect(() => {
     const audio = new Audio("/audios/page-flip-01a.mp3");
