@@ -7,7 +7,7 @@ export const pageAtom = atom(0);
 // Create page pairs: [1,2], [3,4], [5,6], etc.
 export const pages = [
   {front: "1", back: "muc-luc"},
-  {front: "2", back: "4"},
+  {front: "member", back: "4"},
   {front: "5", back: "6"},
   {front: "7", back: "8"},
   {front: "9", back: "10"},
@@ -17,7 +17,7 @@ export const pages = [
   {front: "17", back: "18"},
   {front: "19", back: "20"},
   {front: "21", back: "ai"},
-  {front: "22", back: "thank"},
+  {front: "22", back: "24"},
 
 ];
 
