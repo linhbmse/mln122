@@ -123,7 +123,7 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
       new MeshStandardMaterial({
         color: whiteColor,
         map: picture,
-        roughness: 0.9,
+        roughness: 1.2,
         metalness: 0,
         emissive: emissiveColor,
         emissiveIntensity: 0,
@@ -131,7 +131,7 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
       new MeshStandardMaterial({
         color: whiteColor,
         map: picture2,
-        roughness: 0.9,
+        roughness: 1.2,
         metalness: 0,
         emissive: emissiveColor,
         emissiveIntensity: 0,
